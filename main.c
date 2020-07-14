@@ -174,18 +174,133 @@
 //}
 
 /* 합격? 불합격? */
+//int main() {
+//    int score;
+//
+//    printf("당신의 수학점수를 입력하세요. : ");
+//    scanf("%d", &score);
+//
+//    if (score >= 90) {
+//        printf("당신은 합격입니다. \n");
+//        return 0;
+//    }
+//    printf("당신은 불합격입니다. \n");
+//
+//    return 0;
+//}
+
+/* 크기 비교하기 */
+//int main() {
+//    int i, j;
+//    printf("크기를 비교할 두 수를 입력해 주세요. : ");
+//    scanf("%d %d", &i, &j);
+//
+//    if (i > j) {
+//        printf("%d는 %d보다 큽니다. \n", i, j);
+//    }
+//    if (i < j) {
+//        printf("%d는 %d보다 작습니다. \n", i, j);
+//    }
+//    if (i >= j) {
+//        printf("%d는 %d보다 크거나 같습니다. \n", i, j);
+//    }
+//    if (i <= j) {
+//        printf("%d는 %d보다 작거나 같습니다. \n", i, j);
+//    }
+//    if (i == j) {
+//        printf("%d는 %d와 같습니다. \n", i, j);
+//    }
+//    if (i != j) {
+//        printf("%d는 %d와(과) 다릅니다. \n", i, j);
+//    }
+//    return 0;
+//}
+
+/* if - else 문 */
+//int main() {
+//    int num;
+//
+//    printf("아무 숫자나 입력해 보세요. : ");
+//    scanf("%d", &num);
+//
+//    if (num == 7) {
+//        printf("행운의 숫자 7이군요!\n");
+//    } else {
+//        printf("그냥 보통 숫자인 %d를 입력했군요!\n", num);
+//    }
+//    return 0;
+//}
+
+//int main() {
+//    int num;
+//
+//    printf("아무 숫자나 입력해 보세요 : ");
+//    scanf("%d", &num);
+//
+//    if (num == 7) {
+//        printf("행운의 숫자 7 이군요.\n");
+//    } else {
+//        if (num == 4) {
+//            printf("죽음의 숫자 4인가요 ;;; \n");
+//        } else {
+//            printf("그냥 평범한 숫자 %d \n", num);
+//        }
+//    }
+//    return 0;
+//}
+
+//int main() {
+//    int num;
+//
+//    printf("아무 숫자나 입력해 보세요 : ");
+//    scanf("%d", &num);
+//
+//    if (num == 7) {
+//        printf("행운의 숫자 7이군요! \n");
+//    } else if (num == 4) {
+//        printf("죽음의 숫자 4인가요 ;;; \n");
+//    } else {
+//        printf("그냥 평범한 숫자 %d \n", num);
+//    }
+//    return 0;
+//}
+
+//int main() {
+//    int num;
+//
+//    printf("아무 숫자나 입력하세요 : ");
+//    scanf("%d", &num);
+//
+//    if (num == 7) {
+//        printf("a 행운의 숫자 7 이군요! \n");
+//    } else if (num == 7) {
+//        printf("b 행운의 숫자 7 이군요. \n");
+//    }
+//
+//    if (num == 7) {
+//        printf("c 행운의 숫자 7 이군요! \n");
+//    }
+//    if (num == 7) {
+//        printf("d 행운의 숫자 7 이군요! \n");
+//    }
+//}
+
 int main() {
-    int score;
+    float ave_score;
+    float math, english, science, programming;
 
-    printf("당신의 수학점수를 입력하세요. : ");
-    scanf("%d", &score);
+    printf("수학, 영어, 과학, 컴퓨터 프로그래밍 점수를 각각 입력해 주세요! ");
+    scanf("%f %f %f %f", &math, &english, &science, &programming);
 
-    if (score >= 90) {
-        printf("당신은 합격입니다. \n");
+    ave_score =
+            (math + english + science + programming) / 4;
+    printf("당신의 평균 점수는 %f입니다. \n", ave_score);
+    if (ave_score >= 90) {
+        printf("당신은 우등생입니다. ");
+    } else if (ave_score >= 30) {
+        printf("조금만 노력하세요!. \n");
+    } else {
+        printf("공부를 발로 합니까? \n");
     }
-    if (score < 90) {
-        printf("당신은 불합격입니다. \n");
-    }
-
     return 0;
 }
