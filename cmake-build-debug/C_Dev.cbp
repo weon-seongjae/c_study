@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/weonsj/CLionProjects/c_study/inflearn.c">
+			<Option target="C_Dev"/>
+		</Unit>
 		<Unit filename="C:/Users/weonsj/CLionProjects/c_study/main.c">
 			<Option target="C_Dev"/>
 		</Unit>

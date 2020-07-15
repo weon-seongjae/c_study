@@ -122,6 +122,33 @@ C_Dev/fast:
 	$(MAKE) -f CMakeFiles\C_Dev.dir\build.make CMakeFiles/C_Dev.dir/build
 .PHONY : C_Dev/fast
 
+inflearn.obj: inflearn.c.obj
+
+.PHONY : inflearn.obj
+
+# target to build an object file
+inflearn.c.obj:
+	$(MAKE) -f CMakeFiles\C_Dev.dir\build.make CMakeFiles/C_Dev.dir/inflearn.c.obj
+.PHONY : inflearn.c.obj
+
+inflearn.i: inflearn.c.i
+
+.PHONY : inflearn.i
+
+# target to preprocess a source file
+inflearn.c.i:
+	$(MAKE) -f CMakeFiles\C_Dev.dir\build.make CMakeFiles/C_Dev.dir/inflearn.c.i
+.PHONY : inflearn.c.i
+
+inflearn.s: inflearn.c.s
+
+.PHONY : inflearn.s
+
+# target to generate assembly for a file
+inflearn.c.s:
+	$(MAKE) -f CMakeFiles\C_Dev.dir\build.make CMakeFiles/C_Dev.dir/inflearn.c.s
+.PHONY : inflearn.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... C_Dev
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... inflearn.obj
+	@echo ... inflearn.i
+	@echo ... inflearn.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

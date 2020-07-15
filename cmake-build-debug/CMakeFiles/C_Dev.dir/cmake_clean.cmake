@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/C_Dev.dir/inflearn.c.obj"
   "CMakeFiles/C_Dev.dir/main.c.obj"
   "C_Dev.exe"
   "C_Dev.exe.manifest"
