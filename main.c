@@ -568,7 +568,7 @@
 //    return 0;
 //}
 
-int main() {
+int main2() {
     int a;
     double b;
 
