@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-int main() {
+int main1() {
 //    int printf = 1;
 
     printf("Hello World!");
