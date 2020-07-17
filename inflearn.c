@@ -18,7 +18,7 @@
 //    return 0;
 //}
 
-int main() {
+int main1() {
     float won;
     float dollar;
 

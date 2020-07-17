@@ -568,13 +568,10 @@
 //    return 0;
 //}
 
-int main2() {
-    int a;
-    double b;
+int main() {
+    int arr[10] = {1,2,3,4,5,6,7,8,9,10};
 
-    b = 2.4;
-    a = b;
+    printf("Array 3번째 원소 : %d \n", arr[2]);
 
-    printf("%d", a);
     return 0;
 }
